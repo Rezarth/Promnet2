@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GIT TOPIC by Reza</title>
+    <style>
+        body {
+            display: flex;
+        }
+        #menu {
+            width: 15%;
+            height : 100%;
+            background-color: #333;
+            color: white;
+            padding:20px;
+        }
+        #content {
+            width: 85%;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="menu">
+        <h2 style="text-align:center">Menu</h2>
+        <ul>
+            <li><a href="#biodata">Biodata</a></li>
+            <li><a href="#pengertian">Pengertian GIT</a></li>
+            <li><a href="#konsepDasar">Konsep Dasar GIT</a></li>
+            <li><a href="#fungsi">Fungsi GIT</a></li>
+            <li><a href="#perintahDasar">Perintah Dasar GIT</a></li>
+        </ul>
+    </div>
+    <div id="content">
+
+        <div id="biodata">
+            <h1>Biodata</h1>
+            <p>Nama : Reza Putra Ramadhan</p>
+            <p>NIM : 2200086</p>
+            <p>Kelas : 3A - PSTI</p>
+            <p>Mata Kuliah : Pemrograman Internet</p>
+        </div>
+
+        <div id="pengertian" style="display: none;">
+            <h1>Pengertian GIT</h1>
+            <p>Git adalah sistem kontrol versi distribusi yang digunakan untuk melacak perubahan dalam kode sumber perangkat lunak dan koordinasi kolaborasi antara pengembang dalam pengembangan perangkat lunak. Git diciptakan oleh Linus Torvalds pada tahun 2005 dan telah menjadi salah satu alat yang paling umum digunakan oleh pengembang perangkat lunak di seluruh dunia pada awalnya ditujukan untuk pengembangan kernel Linux dan perangkat lunak bebas yang dirilis di bawah Lisensi Publik Umum GNU versi 2. Git menjadi dasar dari banyak platform pengembangan perangkat lunak seperti GitHub, GitLab, dan Bitbucket, yang menyediakan layanan hosting untuk proyek Git. Git juga mendukung kolaborasi tim yang efisien dan manajemen kode sumber yang lebih baik.</p>
+        </div>
+
+        <div id="konsepDasar" style="display: none;">
+            <h1>Konsep Dasar GIT</h1>
+            <p>1. Repository (Repositori): Repository adalah tempat penyimpanan yang digunakan untuk menyimpan kode sumber proyek. Repository dapat berada di lokal (local repository) atau di hosting server (remote repository). Setiap proyek biasanya memiliki satu repository utama.</p>
+            <p>2. Commit: Commit adalah tindakan yang digunakan untuk menyimpan perubahan dalam kode sumber. Setiap commit memiliki pesan yang menjelaskan perubahan yang dilakukan. Commits memungkinkan Anda untuk melacak sejarah perubahan dalam proyek.</p>
+            <p>3. Branch (Cabang): Branch adalah cabang atau garis perkembangan dalam repository yang memungkinkan Anda untuk mengembangkan kode sumber secara terpisah. Biasanya, proyek memiliki branch utama (misalnya, "master" atau "main") dan cabang lainnya untuk pengembangan fitur atau perbaikan bug.</p>
+            <p>4. Merge: Merge adalah tindakan menggabungkan perubahan dari satu branch ke branch lainnya. Ini digunakan untuk mengintegrasikan perubahan dari cabang pengembangan ke branch utama.</p>
+            <p>5. Pull Request (Permintaan Tarik): Ini adalah mekanisme yang digunakan untuk mengusulkan perubahan kode sumber dari satu cabang ke cabang lain dalam proyek. Biasanya digunakan dalam kolaborasi tim.</p>
+            <p>6. Clone: Clone adalah tindakan menduplikat repository yang ada dari server ke lokal. Ini memungkinkan pengembang untuk bekerja dengan salinan penuh dari kode sumber proyek di komputer mereka.</p>
+            <p>7. Push dan Pull: Push adalah tindakan mengunggah perubahan dari repository lokal ke repository remote, sedangkan pull adalah tindakan mengambil perubahan dari repository remote ke repository lokal.</p>
+            <p>8. Conflict (Konflik): Konflik terjadi ketika ada perubahan yang bertentangan dalam kode sumber yang tidak dapat diotomatiskan oleh Git. Pengguna harus menyelesaikan konflik ini secara manual.</p>
+            <p>9. Version Control (Kontrol Versi): Git membantu dalam mengelola dan melacak versi berbagai komponen dalam proyek perangkat lunak. Hal ini memudahkan pengembang untuk mengidentifikasi perubahan yang dilakukan pada kode sumber dari waktu ke waktu.</p>
+            <p>10. Distributed (Distribusi): Git adalah sistem kontrol versi yang terdistribusi, yang berarti setiap pengembang memiliki salinan lengkap dari repository, dan perubahan dapat dilakukan secara independen di repositori lokal sebelum diintegrasikan ke repositori pusat.</p>
+        </div>
+        
+        <div id="fungsi" style="display: none;">
+            <h1>Fungsi GIT</h1>
+            <p>1. Manajemen Perubahan: Git membantu Anda melacak dan menyimpan perubahan dalam kode sumber proyek Anda. </p>
+            <p>2. Kolaborasi Tim: Git memungkinkan beberapa pengembang bekerja bersama pada kode sumber yang sama. </p>
+            <p>3. Manajemen Cabang: Git memungkinkan Anda membuat cabang untuk mengembangkan fitur atau memperbaiki bug tanpa mengganggu kode utama. </p>
+            <p>4. Pelacakan Riwayat: Git menyimpan riwayat perubahan, memudahkan Anda melihat siapa, kapan, dan mengapa perubahan dilakukan. </p>
+            <p>5. Pemulihan dan Pencabutan: Git memungkinkan Anda memulihkan kode sumber ke versi sebelumnya atau menggagalkan perubahan yang tidak diinginkan. </p>
+            <p>6. Manajemen Proyek: Git membantu Anda mengatur kode sumber proyek yang lebih besar dengan baik. </p>
+            <p>7. Kontrol Akses: Git memungkinkan Anda mengendalikan siapa yang dapat mengakses dan berkontribusi ke kode sumber. </p>
+            <p>8. Integrasi Mudah: Git mudah diintegrasikan dengan alat pengembangan lainnya. </p>
+            <p>9. Distribusi: Setiap pengembang memiliki salinan lengkap kode sumber di komputer lokal mereka. </p>
+            <p>10. Manajemen Konflik: Git membantu menangani konflik yang terjadi saat beberapa orang mengedit kode yang sama. </p>
+        </div>
+
+        <div id="perintahDasar" style="display: none;">
+            <h1>Perintah Dasar dalam GIT</h1>
+            <p>- Git-Init: Perintah ini digunakan untuk membuat repositori git baru. </p>
+            <p>- Git Status: Perintah ini digunakan untuk melihat status dari repositori git saat ini, termasuk file-file yang telah dimodifikasi, file-file yang telah ditambahkan ke staging area, dan file-file yang telah dihapus. </p>
+            <p>- Git add: Perintah ini digunakan untuk menambahkan file-file yang telah dimodifikasi ke staging area. File-file yang ada di staging area akan dikomit ke repositori saat Anda menjalankan perintah git commit. </p>
+            <p>- Git commit: Perintah ini digunakan untuk menyimpan perubahan yang telah ditambahkan ke staging area ke repositori. Setiap commit harus disertai dengan pesan singkat yang menjelaskan perubahan yang dilakukan. </p>
+            <p>- Git push: Perintah ini digunakan untuk mengirimkan perubahan yang telah dikomit ke repositori remote. </p>   
+            <p>- Git Checkout: Perintah ini digunakan untuk beralih ke branch yang berbeda. </p>   
+            <p>- Git Merge: Perintah ini digunakan untuk menggabungkan perubahan dari dua branch yang berbeda menjadi satu branch. </p>   
+            <p>- Git Clone: Perintah ini digunakan untuk mengkloning repositori remote ke komputer lokal Anda. </p>
+            <p>- Git log: Perintah ini digunakan untuk melihat sejarah commit dari repositori git saat ini. </p>
+            <p>- Git pull: Perintah ini digunakan untuk mengambil perubahan dari repositori remote dan menggabungkannya ke repositori lokal Anda. </p>
+            <p>- Git diff: Perintah ini digunakan untuk membandingkan dua versi dari sebuah file atau dua snapshot dari repositori git. </p>
+            <P>- Git branch: Perintah ini digunakan untuk membuat branch baru, menghapus branch yang ada, atau melihat daftar dari semua branch yang tersedia. </P>
+        </div>
+    </div>
+
+    <script>
+        const menuItems = document.querySelectorAll('#menu ul li a');
+        const contentSections = document.querySelectorAll('#content > div');
+
+        menuItems.forEach((menuItem) => {
+            menuItem.addEventListener('click', (e) => {
+                e.preventDefault();
+                const targetId = menuItem.getAttribute('href').substr(1);
+
+                contentSections.forEach((section) => {
+                    if (section.id === targetId) {
+                        section.style.display = 'block';
+                    } else {
+                        section.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
